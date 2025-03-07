@@ -15,9 +15,9 @@ let bikes = [
 
 let heaviestBike = bikes[0]
 
-for (let key in bikes) {
-    if (heaviestBike[key].peso > bikes.peso) {
-        heaviestBike = bikes[key]
+for (let i in bikes) {
+    if (heaviestBike[i].peso > bikes.peso) {
+        heaviestBike = bikes[i]
     }
     console.log(bikes)
 
