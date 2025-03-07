@@ -26,5 +26,7 @@ for (let i = 0; i < squadre.lenght; i++) {
     let squadre = Math.round(Math.random() * 20) + 1;
     squadre[i].puntiFatti
     squadre[i].falliSubiti
-    console.log(squadre)
+
 }
+
+console.log(squadre)
