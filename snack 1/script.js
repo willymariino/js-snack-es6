@@ -1,4 +1,4 @@
-let biciclette = [
+let bikes = [
     {
         marca: "Atala",
         peso: 30
@@ -13,4 +13,12 @@ let biciclette = [
     }
 ];
 
+let heaviestBike = bikes[0]
 
+for (let key in bikes) {
+    if (heaviestBike[key].peso > bikes.peso) {
+        heaviestBike = bikes[key]
+    }
+    console.log(bike)
+
+}
