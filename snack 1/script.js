@@ -19,6 +19,6 @@ for (let key in bikes) {
     if (heaviestBike[key].peso > bikes.peso) {
         heaviestBike = bikes[key]
     }
-    console.log(bike)
+    console.log(bikes)
 
 }
