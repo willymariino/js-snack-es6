@@ -17,3 +17,11 @@ let squadre = [
 ];
 
 console.log(squadre)
+
+// generatore di numeri random
+for (let i = 0; i < numberCount; i++) {
+    let num = Math.round(Math.random() * 20) + 1;
+    puntiFatti.push(num)
+    fallisubiti.push(num)
+    console.log(num)
+}
