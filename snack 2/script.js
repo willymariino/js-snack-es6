@@ -28,5 +28,5 @@ for (let i = 0; i < squadre.length; i++) {
 
 }
 
-for (let i = 0; i < sqaudre.length; i++)
-    console.log(squadre.nome + squadre.puntiFatti + squadre.falliSubiti)
+for (let i = 0; i < squadre.length; i++)
+    console.log(squadre[i].nome + squadre[i].puntiFatti + squadre[i].falliSubiti)
