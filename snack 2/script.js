@@ -18,13 +18,13 @@ let squadre = [
 
 console.log(squadre)
 
-const numberCount = 6
+
 
 
 // generatore di numeri random
-for (let i = 0; i < numberCount; i++) {
-    let num = Math.round(Math.random() * 20) + 1;
-    squadre.puntiFatti[num]
-    squadre.fallisubiti.[num]
-    console.log(num)
+for (let i = 0; i < squadre.lenght; i++) {
+    let squadre = Math.round(Math.random() * 20) + 1;
+    squadre[i].puntiFatti
+    squadre[i].falliSubiti
+    console.log(squadre)
 }
