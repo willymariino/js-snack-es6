@@ -15,3 +15,5 @@ let squadre = [
         falliSubiti: 0
     }
 ];
+
+console.log(squadre)
