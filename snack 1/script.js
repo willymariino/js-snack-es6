@@ -13,12 +13,14 @@ let bikes = [
     }
 ];
 
-let heaviestBike = bikes[0]
+console.log(bikes)
 
-for (let i in bikes) {
-    if (heaviestBike[i].peso > bikes.peso) {
-        heaviestBike = bikes[i]
+let heaviestBike = bikes[0];
+
+for (let [i] in bikes) {
+    if (bikes[i].peso > heaviestBike.peso) {
+        heaviestBike = bikes[i];
     }
-    console.log(bikes)
 
 }
+console.log("la bici più pesante è:")
