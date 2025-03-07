@@ -29,4 +29,4 @@ for (let i = 0; i < squadre.lenght; i++) {
 
 }
 
-console.log(squadre)
+console.log(squadre.nome + squadre.puntiFatti + squadre.falliSubiti)
