@@ -27,4 +27,4 @@ console.log("la bici più pesante è:", heaviestBike.marca, "con un peso di kg",
 
 const bikeWeight = document.getElementById("bike-weight")
 
-bikeWeight.textContent = "la bici più pesante è" + " " + heaviestBike.marca + " " + "con un peso di kg" + "" + heaviestBike.peso
+bikeWeight.textContent = "la bici più pesante è" + " " + heaviestBike.marca + " " + "con un peso di kg" + " " + heaviestBike.peso
