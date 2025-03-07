@@ -22,11 +22,11 @@ console.log(squadre)
 
 
 // generatore di numeri random
-for (let i = 0; i < squadre.lenght; i++) {
-    let squadre = Math.round(Math.random() * 20) + 1;
-    squadre[i].puntiFatti
-    squadre[i].falliSubiti
+for (let i = 0; i < squadre.length; i++) {
+    squadre[i].puntiFatti = Math.round(Math.random() * 20) + 1;
+    squadre[i].falliSubiti = Math.round(Math.random() * 20) + 1;
 
 }
 
-console.log(squadre.nome + squadre.puntiFatti + squadre.falliSubiti)
+for (let i = 0; i < sqaudre.length; i++)
+    console.log(squadre.nome + squadre.puntiFatti + squadre.falliSubiti)
