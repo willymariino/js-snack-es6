@@ -18,6 +18,9 @@ let squadre = [
 
 console.log(squadre)
 
+const numberCount = 6
+
+
 // generatore di numeri random
 for (let i = 0; i < numberCount; i++) {
     let num = Math.round(Math.random() * 20) + 1;
